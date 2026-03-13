@@ -10,7 +10,7 @@ public Envio(int id, String cliente, String direccion, EstadoEnvio estado, Repar
     this.id = id;
     this.cliente = cliente;
     this.direccion = direccion;
-    this.estado = estado.creado;
+    this.estado = estado;
     this.repartidor = repartidor;
     this.estrategia = estrategia;
 }
