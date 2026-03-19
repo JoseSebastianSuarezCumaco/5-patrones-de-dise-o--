@@ -2,9 +2,9 @@ public class Repartidor {
     private String nombre;
     private int id;
 
-    public Repartidor(String nombre, int id) {
-        this.nombre = nombre;
-        this.id = id;
+public Repartidor(int id, String nombre) {
+    this.id = id;
+    this.nombre = nombre;
 }
 
     public String getNombre() {

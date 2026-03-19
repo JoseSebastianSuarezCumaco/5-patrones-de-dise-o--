@@ -2,7 +2,7 @@ public class CustomerObserver implements Observer {
 
     @Override
     public void update(Envio e) {
-        System.out.println("Cliente notificado: El envío " + e.getId() + " cambió de estado a " + e.getEstado());
+        System.out.println("Cliente notificado: el envio " + e.getId() + " cambio al estado " + e.getEstado());
     }
 
 }

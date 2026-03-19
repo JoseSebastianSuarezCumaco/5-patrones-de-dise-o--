@@ -14,6 +14,14 @@ public Envio(int id, String cliente, String direccion, EstadoEnvio estado, Repar
     this.repartidor = repartidor;
     this.estrategia = estrategia;
 }
+public Envio(int id, String cliente, String direccion) {
+    this.id = id;
+    this.cliente = cliente;
+    this.direccion = direccion;
+    this.estado = EstadoEnvio.creado; // o el inicial que tengas
+    this.repartidor = null;
+    this.estrategia = null;
+}
 
 public void asignarRepartidor(Repartidor repartidor) {
     this.repartidor = repartidor;
